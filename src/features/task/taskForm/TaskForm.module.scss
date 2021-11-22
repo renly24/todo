@@ -1,0 +1,43 @@
+.root {
+  width: 40vw;
+  margin-bottom: 20px;
+
+  .form {
+    .text_field {
+      width: 100%;
+    }
+
+    .button_wrapper {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      margin-top: 20px;
+
+      .submit_button,
+      .cancel_button {
+        width: 40vw;
+        height: 40px;
+        font-size: bold;
+        font-size: 15px;
+        border: none;
+        border-radius: 5px;
+
+        &:hover {
+          cursor: pointer;
+          border: 1px solid;
+
+        }
+      }
+
+      .submit_button {
+        margin-bottom: 10px;
+        background-color: #ffd5c9;
+        color: #282828;
+      }
+
+      .cancel_button {
+        color: #282828;
+      }
+    }
+  }
+}
