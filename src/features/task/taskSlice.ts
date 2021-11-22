@@ -35,7 +35,7 @@ export const taskSlice = createSlice({
         completed: false,
       };
 
-      state.tasks = [newTask, ...state.tasks];
+      state.tasks = [...state.tasks,newTask];
     },
     //taskの編集
     editTask: (state, action) => {

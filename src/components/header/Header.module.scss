@@ -1,11 +1,20 @@
 .root{
     .app_bar{
+        
+        height: 10vh;
         box-shadow: none;
         background-color: #f1f2f7;
         color: #282828;
-
         .tool_bar{
+            width:70vw;
             padding: 0;
-        }
-    }
+            text-align: right;
+            font-size: 30px;
+            .title{
+                width:50vw;
+                font-size: 30px;
+                text-align: left;
+            }
+         }
+}
 }
